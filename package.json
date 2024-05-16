@@ -1,0 +1,16 @@
+{
+  "name": "instalacion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailDev":"npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/estilos.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
